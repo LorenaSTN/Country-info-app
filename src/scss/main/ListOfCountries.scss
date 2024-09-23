@@ -1,0 +1,12 @@
+.listofcountries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e3e2df;
+
+  @media screen and (min-width: 720px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

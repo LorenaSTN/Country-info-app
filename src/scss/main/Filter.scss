@@ -1,0 +1,41 @@
+.Filters {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    font-size: 30px;
+    font-family: "Courgette", cursive;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  &__input {
+    &__country {
+      margin-bottom: 30px;
+      width: 140px;
+      border: 2px solid #a57f60;
+      padding: 3px;
+
+      &::placeholder {
+        color: #323232c1;
+        font-size: 14px;
+        font-family: "Courgette", cursive;
+        opacity: 0.8;
+      }
+    }
+    &__continent {
+      width: 145px;
+      border: 2px solid #a57f60;
+      padding: 3px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.app {
+  &__header {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    background-color: #e3e2df;
+    height: 100vh;
+
+    @media screen and (min-width: 590px) {
+      height: 20%;
+    }
+  }
+
+  &__title {
+    font-size: 72px;
+    font-family: "Courgette", cursive;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__div {
+    padding-top: 150px;
+    @media screen and (min-width: 590px) {
+      padding-top: 0px;
+    }
+  }
+
+  &__subtitle {
+    margin: 15px;
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    color: #8d6b4f;
+    @media screen and (min-width: 590px) {
+      margin: 5px;
+    }
+  }
+
+  &__main {
+    @media screen and (min-width: 590px) {
+      display: flex;
+    }
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e2df;
+  }
+}
