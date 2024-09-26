@@ -1,4 +1,4 @@
-# Country Info App 🌎
+# Country Info App 
 
 Country Info App is a web application that allows users to browse, filter, and add new countries to a list. The app displays country names, capitals, and flags, and provides users with the option to filter countries by continent or search for a specific country.
 
