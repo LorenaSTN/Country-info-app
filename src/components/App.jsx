@@ -4,6 +4,7 @@ import ListCountries from "./ListCountries";
 import Filter from "./Filter";
 import { useState } from "react";
 import AddCountry from "./AddCountry";
+import Pattern from "../images/pattern2.jpg";
 
 function App() {
   const [inputCountry, setInputCountry] = useState("");
@@ -81,18 +82,26 @@ function App() {
   });
 
   return (
-    <>
-      <header className="app__header">
-        <h2 className="app__title">Country Info App</h2>
-        <div className="app__div">
-          <h4 className="app__subtitle">
-            Explore Information about countries, capitals and flags.
-          </h4>
-          <h4 className="app__subtitle">
-            Add new countries and filter through the list!
-          </h4>
-        </div>
-      </header>
+    <div
+      className="app_container"
+      style={{
+        backgroundImage: `url(${Pattern})`,
+        backgroundSize: "contain",
+      }}
+    >
+      <div className="container__header">
+        <header className="app__header">
+          <h2 className="app__title">Country Info App</h2>
+          <div className="app__div">
+            <h4 className="app__subtitle">
+              Explore Information about countries, capitals and flags.
+            </h4>
+            <h4 className="app__subtitle">
+              Add new countries and filter through the list!
+            </h4>
+          </div>
+        </header>
+      </div>
       <main className="app__main">
         <section className="app__section">
           <Filter
@@ -111,7 +120,7 @@ function App() {
           <ListCountries countriesData={filteredCountries} />
         </div>
       </main>
-    </>
+    </div>
   );
 }
 

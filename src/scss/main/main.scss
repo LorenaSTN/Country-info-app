@@ -2,8 +2,7 @@
   &__header {
     text-align: center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px;
-    background-color: #e3e2df;
+    width: auto;
     height: 100vh;
 
     @media screen and (min-width: 590px) {
@@ -30,7 +29,6 @@
     margin: 15px;
     font-family: "Caveat", cursive;
     font-size: 25px;
-    color: #8d6b4f;
     @media screen and (min-width: 590px) {
       margin: 5px;
     }
@@ -44,6 +42,5 @@
   &__section {
     display: flex;
     flex-direction: column;
-    background-color: #e3e2df;
   }
 }

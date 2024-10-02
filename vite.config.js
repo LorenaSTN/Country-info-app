@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/List-of-countries/",
+  base: "/Country-info-app/",
 });
